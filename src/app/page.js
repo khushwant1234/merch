@@ -3,11 +3,12 @@ import { Card, CardFooter } from "@/components/ui/card";
 
 export default function Home() {
   return (
+    
+    
     <div className="flex flex-col items-center py-10 space-y-10">
       
       {/* First Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 w-full max-w-screen-xl">
-          
           {/* Card 1 */}
           <div className="flex flex-col items-start">
               <Card className="h-80 w-full" /> 
@@ -33,7 +34,6 @@ export default function Home() {
               <Card className="h-80 w-full" />
               <p className="text-left p-2 font-semibold">Oversized Haunted Carnival</p>
           </div>
-
       </div>
 
       {/* Second Row */}
@@ -43,7 +43,6 @@ export default function Home() {
             <div className="relative h-80 w-full"> 
               <Image
                 src="/ss.png"
-                alt="A descriptive alt text for the background image"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -52,7 +51,7 @@ export default function Home() {
               />
               <Card className="absolute inset-0 bg-transparent">
                 <CardFooter className="absolute bottom-0 w-full text-center">
-                  <div className="backdrop-blur-sm bg-black bg-opacity-30 py-5 px-10">
+                  <div className="backdrop-blur-sm bg-black bg-opacity-10 py-5 px-10">
                     <p className="text-white opacity-90 font-normal">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
                     </p>
@@ -77,7 +76,6 @@ export default function Home() {
 
       {/*Third Row*/}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 w-full max-w-screen-xl">
-          
           {/* Card 1 */}
           <div className="flex flex-col items-start">
               <Card className="h-80 w-full" /> {/* Adjust height as needed */}

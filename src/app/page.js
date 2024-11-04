@@ -43,6 +43,7 @@ export default function Home() {
             <div className="relative h-80 w-full"> 
               <Image
                 src="/ss.png"
+                alt='uwu'
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -50,7 +51,7 @@ export default function Home() {
                 className="rounded-lg"
               />
               <Card className="absolute inset-0 bg-transparent">
-                <CardFooter className="absolute bottom-0 w-full text-center">
+                <CardFooter className="absolute bottom-0 w-full text-center p-0 rounded-lg">
                   <div className="backdrop-blur-sm bg-black bg-opacity-10 py-5 px-10">
                     <p className="text-white opacity-90 font-normal">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
